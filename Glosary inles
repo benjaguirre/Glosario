@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <img src="/home/usuario/Desktop/proyecto de taller de ingles/pages/descarga.png" alt="">
+    <title>HTML</title>
+    <link rel="stylesheet" href="pagina1.css">
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <div id="qrcode"></div>
+
+<script>
+var qrcode = new QRCode(document.getElementById("qrcode"), {
+    text: "http://127.0.0.1:5500/pages/pagina1.html",
+    width: 128,
+    height: 128
+});
+</script>
+
+
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Bienvenido a html</h1>
+        <TR>
+            <td>HTML</td>
+                <td>es un lenguaje de programacion para crear paginas web y app. Usa etiquetas para definir el contenido, como texto, imágenes, enlaces, tablas, formularios, y más.</td>
+        
+        
+        </TR>
+
+        
+        <p>Elementos basicos :</p>
+        <ul>
+            <li>"Head" Contiene metadatos, como el título de la página, enlaces a archivos CSS, o scripts.</li>
+            <li>"title" Especifica el título de la página que se ve en la pestaña del navegador.</li>
+            <li>"body"ontiene el contenido visible de la página (texto, imágenes, enlaces, etc.)</li>
+        </ul>
+
+        <p>Etiquetas comunes:</p>
+        <ul>
+            <li>"h1", "h2", ... "h6": Encabezados, donde "h1" es el más importante y "h6" el menos importante.</li>
+            <li>"p": Define un párrafo de texto.</li>
+            <li>"a": Define un enlace.
+                <li>"img": Define una imagen. </li>
+                <li>"ul", "ol", "li": Define listas no ordenadas ("ul") o listas ordenadas ("ol"), y los elementos de lista son "li"</li>
+                <li>"div" y "span": Etiquetas de contenedor, usadas para agrupar otros elementos (especialmente en el diseño web).</li>
+        </ul>
+
+        <p>Atributos importantes</p>
+        <ul>
+            <li>"id" Un identificador único para un elemento (útil para estilos o scripts).</li>
+            <li>"class"Una clase que puede ser compartida por varios elementos (utilizada para CSS y JavaScript).</li>
+            <li>href: Atributo del enlace "a" que especifica la URL a la que el enlace apunta.</li>
+            <li>src: Atributo de la imagen "img"que define la fuente de la imagen.</li>
+        </ul>
+
+
+        <p>Semantica de HTML</p>
+        <li>"heade": Representa la cabecera del documento o una sección.</li>
+        <li>"footer": Representa el pie de página.</li>    
+        <li>"article": Define contenido independiente o autónomo.</li>    
+        <li> "section": Define una sección temática de contenido.</li>   
+        <li>"nav": Define una sección de navegación.</li>   
+    </div>
+</body>
+
+<h2>Traducido en Ingles</h2>
+<tr>
+    <td>Html</td>
+    <td>It is a programming language for creating web pages and applications. Use tags to define content, such as text, images, links, tables, forms, and more.</td>
+</tr>
+
+<p>Basic elements:
+<ul>
+<li> "Head" Contains metadata, such as the page title, links to CSS files, or scripts.</li>
+<li> "title" Specifies the title of the page displayed in the browser tab.</li>
+<li>"body" contains the visible content of the page (text, images, links, etc.)</li>
+</ul>
+
+
+<p>Common tags:</p>
+<ul>
+<li> "h1", "h2", ... "h6": Headings, where "h1" is the most important and "h6" the least important.</li>
+<li>"p": Defines a paragraph of text.</li>
+<li> "a": Defines a link.</li>
+<li> "img": Defines an image.</li>
+<li>"ul", "ol", "li": Defines unordered lists ("ul") or ordered lists ("ol"), and the list elements are "li"</li>
+<li>"div" and "span": Container tags, used to group other elements (especially in web design).</li>
+</ul>
+
+
+<p>Important attributes</p>
+    <ul>
+    <li> "id" A unique identifier for an element (useful for styles or scripts).</li>  
+    <li>"class"A class that can be shared by multiple elements (used for CSS and JavaScript).</li>    
+    <li>href: Link "a" attribute that specifies the URL that the link points to.</li>    
+    <li> src: Attribute of the image "img" that defines the source of the image.</li>   
+</ul>
+<p>HTML Semantics:</p>
+
+<ul>
+
+<li>"heade": Represents the header of the document or a section.</li>
+<li>"footer": Represents the footer of the page.</li>
+<li>"article": Defines independent or autonomous content.</li>
+<li>"section": Defines a thematic section of content.</li>
+<li>"nav": Defines a navigation section.</li>
+</ul>
